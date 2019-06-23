@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 console.log(scores);
 
                 //Check who won
-                if(scores[activePlayer] >= 50){
+                if(scores[activePlayer] >= 100){
                         document.querySelector("#player-name-"+activePlayer).textContent = "WINNER!";
                         document.querySelector(".player-"+activePlayer).classList.add("winner");
                         document.querySelector(".player-"+activePlayer).classList.remove("active");
