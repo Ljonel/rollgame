@@ -14,7 +14,7 @@ const score2 = document.querySelector("#score2");
 document.addEventListener("DOMContentLoaded", function () {
         dice.addEventListener("click", function () {
                 dice_number = Math.floor(Math.random() * 6 + 1);
-                dice.style.backgroundImage = "url(../img/dice-" + dice_number + ".png)";
+                dice.style.backgroundImage = "url(https://ljonel.github.io/rollgame/img/dice-" + dice_number + ".png)";
                 if (dice_number !== 1) {
                         roundScore += dice_number;
                         document.querySelector("#current-score-" + activePlayer).textContent = roundScore;
@@ -84,7 +84,7 @@ function resetScores(){
         document.querySelector(".player-0").classList.add("active");
         document.querySelector("#player-name-0").textContent = "Player 1";
         document.querySelector("#player-name-1").textContent = "Player 2";
-        dice.style.backgroundImage = "url(../img/dice-6.png)";
+        dice.style.backgroundImage = "url(https://ljonel.github.io/rollgame/img/dice-6.png)";
 
         dice.style.display = 'block';
 }
