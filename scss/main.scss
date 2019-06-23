@@ -1,3 +1,4 @@
+@import '_instruction';
 $primary-color: white;
 $secondary-color: black;
 
@@ -139,4 +140,19 @@ button:hover {
 
 .winner {
     background-color: gold;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+    transition: .5s;
+    &:hover{
+        color: #f2f2f2;
+        letter-spacing: 1px;
+    }
+}
+.instruction{
+    text-align: center;
+    margin-top: 10px;
 }

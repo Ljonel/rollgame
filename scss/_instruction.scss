@@ -1,0 +1,49 @@
+body {
+    background-image: url(../img/background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+#container_instruction{
+    z-index: 1;
+    position: relative;
+    width: 40vw;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 39px 9px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 39px 9px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 39px 9px rgba(0, 0, 0, 0.75);
+    margin: 30vh auto 0 auto;
+ 
+    padding: 5%;
+    
+}
+.text{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    word-spacing: 2px;
+    line-height: 25px;
+    
+}
+.play{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 5%;
+    a:hover{
+        color: lightcoral;
+        letter-spacing: 5px;
+    }
+}
+@media screen and (max-width: 500px){
+    #container_instruction{
+        width: 70vw;
+        margin-top: 28vh;
+    }
+    .text{
+        color: red;
+    }
+}
